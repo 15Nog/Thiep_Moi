@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Thiệp mời </title>
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="present.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+    <div class="parent">
+        <canvas id='canv'></canvas>
+        <section class="above-fold">
+            <div class="wrap-present">
+                <div class="present-box" id="present">
+                    <div class="present">
+                        <div class="img-wrap" id="present-image">
+                        </div>
+                    </div>
+                    <div class="side front"></div>
+                    <div class="side back"></div>
+                    <div class="side left"></div>
+                    <div class="side right"></div>
+                    <div class="side top">
+                        <span class="to">
+                            <span class="name" id="nametag">
+                            </span>
+                        </span>
+                    </div>
+                    <div class="side bottom"></div>
+                </div>
+            </div>
+            <p class="info-text"></p>
+        </section>
+    </div>
+</body>
+<script src="canvas.js"></script>
+<script src="present.js"></script>
+
+</html>
